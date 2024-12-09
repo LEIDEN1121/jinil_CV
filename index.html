@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>My CV</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0; padding: 0;
+    background: #f5f5f5;
+    color: #333;
+  }
+
+  header {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: url('path_to_your_banner_image.jpg') center/cover no-repeat;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    margin-top: -60px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  .profile-img {
+    flex: 0 0 150px;
+    margin-right: 20px;
+  }
+
+  .profile-img img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+  }
+
+  .profile-info h1 {
+    margin: 0;
+    font-size: 1.8em;
+  }
+
+  .profile-info p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #777;
+  }
+
+  main {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  section {
+    margin-bottom: 40px;
+  }
+
+  section h2 {
+    margin-bottom: 15px;
+    font-size: 1.4em;
+    border-bottom: 2px solid #333;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+
+  section ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  section ul li {
+    margin: 10px 0;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    padding: 20px;
+  }
+</style>
+</head>
+<body>
+<header></header>
+<div class="profile">
+  <div class="profile-img">
+    <img src="path_to_your_profile_photo.jpg" alt="Profile Photo">
+  </div>
+  <div class="profile-info">
+    <h1>Your Name</h1>
+    <p>Your Affiliation</p>
+  </div>
+</div>
+
+<main>
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li>Position at Company/Institution (Year - Year)</li>
+      <li>Another Position (Year - Year)</li>
+    </ul>
+  </section>
+
+  <section id="papers">
+    <h2>Papers</h2>
+    <ul>
+      <li>"Paper Title," Journal, Year</li>
+      <li>"Paper Title," Journal, Year</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  © 2024 Your Name
+</footer>
+</body>
+</html>
